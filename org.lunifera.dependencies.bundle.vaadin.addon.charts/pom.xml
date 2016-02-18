@@ -35,6 +35,32 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>vaadin-charts-model</artifactId>
+			<version>3.0.0</version>
+			<classifier>alpha9</classifier>
+		</dependency>
+		<dependency>
 			<groupId>com.vaadin.addon</groupId>
 			<artifactId>vaadin-charts</artifactId>
 			<version>3.0.0-alpha9</version>
@@ -53,7 +79,12 @@
 						<Bundle-Version>3.0.0</Bundle-Version>
 						<Bundle-SymbolicName>org.lunifera.dependencies.bundle.vaadin.addon.charts</Bundle-SymbolicName>
 						<Embed-Dependency>
-							groupId=com.vaadin.addon;artifactId=vaadin-charts;version=3.0.0-alpha9;scope=compile;inline=true,
+							groupId=org.lunifera.dependencies;artifactId=commons-io;version=1.4;scope=compile;inline=true,
+							groupId=org.lunifera.dependencies;artifactId=jackson-annotations;version=2.5.0;scope=compile;inline=true,
+							groupId=org.lunifera.dependencies;artifactId=jackson-core;version=2.5.1;scope=compile;inline=true,
+							groupId=org.lunifera.dependencies;artifactId=jackson-databind;version=2.5.2;scope=compile;inline=true,
+							groupId=org.lunifera.dependencies;artifactId=vaadin-charts-model;version=3.0.0-alpha9;scope=compile;inline=true,
+							groupId=com.vaadin.addon;artifactId=vaadin-charts;version=3.0.0-alpha9;scope=compile;inline=true
 						</Embed-Dependency>
 						<Import-Package>
 							*
@@ -82,6 +113,10 @@
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
+		</repository>
+		<repository>
+			<id>lunifera-thirdparty</id>
+			<url>http://maven.lunifera.org:8086/nexus/content/repositories/thirdparty/</url>
 		</repository>
 	</repositories>
 </project>
