@@ -79,12 +79,12 @@
 						<Bundle-Version>3.0.0</Bundle-Version>
 						<Bundle-SymbolicName>org.lunifera.dependencies.bundle.vaadin.addon.charts</Bundle-SymbolicName>
 						<Embed-Dependency>
-							groupId=org.lunifera.dependencies;artifactId=commons-io;version=1.4;scope=compile;inline=true,
-							groupId=org.lunifera.dependencies;artifactId=jackson-annotations;version=2.5.0;scope=compile;inline=true,
-							groupId=org.lunifera.dependencies;artifactId=jackson-core;version=2.5.1;scope=compile;inline=true,
-							groupId=org.lunifera.dependencies;artifactId=jackson-databind;version=2.5.2;scope=compile;inline=true,
-							groupId=org.lunifera.dependencies;artifactId=vaadin-charts-model;version=3.0.0-alpha9;scope=compile;inline=true,
-							groupId=com.vaadin.addon;artifactId=vaadin-charts;version=3.0.0-alpha9;scope=compile;inline=true
+							groupId=org.lunifera.dependencies;artifactId=commons-io;version=1.4;scope=compile,
+							groupId=org.lunifera.dependencies;artifactId=jackson-annotations;version=2.5.0;scope=compile,
+							groupId=org.lunifera.dependencies;artifactId=jackson-core;version=2.5.1;scope=compile,
+							groupId=org.lunifera.dependencies;artifactId=jackson-databind;version=2.5.2;scope=compile,
+							groupId=org.lunifera.dependencies;artifactId=vaadin-charts-model;version=3.0.0;classifier=alpha9;scope=compile,
+							groupId=com.vaadin.addon;artifactId=vaadin-charts;version=3.0.0-alpha9;scope=compile
 						</Embed-Dependency>
 						<Import-Package>
 							*
