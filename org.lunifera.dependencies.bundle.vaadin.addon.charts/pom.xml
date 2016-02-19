@@ -21,7 +21,7 @@
 	<name>Lunifera Dependencies : Vaadin Charts</name>
 	<packaging>bundle</packaging>
 	<description>Charts</description>
-	<version>3.0.0</version>
+	<version>3.0.1_SNAPSHOT</version>
 
 	<properties>
 		<lunifera.build.ignore.baseline>true</lunifera.build.ignore.baseline>
@@ -76,7 +76,7 @@
 				<configuration>
 					<instructions>
 						<Bundle-Name>Vaadin Charts</Bundle-Name>
-						<Bundle-Version>3.0.0</Bundle-Version>
+						<Bundle-Version>3.0.1.${osgi-version-qualifier}</Bundle-Version>
 						<Bundle-SymbolicName>org.lunifera.dependencies.bundle.vaadin.addon.charts</Bundle-SymbolicName>
 						<Embed-Dependency>
 							groupId=org.lunifera.dependencies;artifactId=commons-io;version=1.4;scope=compile,
