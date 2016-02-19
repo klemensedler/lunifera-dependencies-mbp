@@ -21,7 +21,7 @@
 	<name>Lunifera Dependencies : Vaadin Charts</name>
 	<packaging>bundle</packaging>
 	<description>Charts</description>
-	<version>3.0.1_SNAPSHOT</version>
+	<version>3.0.1-SNAPSHOT</version>
 
 	<properties>
 		<lunifera.build.ignore.baseline>true</lunifera.build.ignore.baseline>
